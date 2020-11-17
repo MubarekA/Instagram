@@ -12,8 +12,8 @@ public class ParseApplication  extends Application {
         // Register your parse models
         ParseObject.registerSubclass(Post.class);
         Parse.initialize(new Parse.Configuration.Builder(this)
-                .applicationId("enterApplicationID")
-                .clientKey("enterclientkey")
+                .applicationId("applicationId")
+                .clientKey("clientKey")
                 .server("https://parseapi.back4app.com")
                 .build()
         );
