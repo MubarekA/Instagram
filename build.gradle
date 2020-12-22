@@ -11,7 +11,12 @@ buildscript {
         // in the individual module build.gradle files
     }
 }
-
+allprojects {
+    repositories {
+        // requires Gradle v4.1+
+        google()
+    }
+}
 allprojects {
     repositories {
         google()
